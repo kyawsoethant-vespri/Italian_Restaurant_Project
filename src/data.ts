@@ -1,18 +1,18 @@
-type Product = {
+interface options {
+  title: string;
+  additionalPrice: number;
+}
+
+interface Product {
   id: number;
   title: string;
   desc?: string;
   img?: string;
   price?: number;
-  options?: {
-    title: string;
-    additionalPrice: number;
-  }[];
-};
+  options?: options[];
+}
 
-type Products = Product[];
-
-export const featuredProducts: Products = [
+export const featuredProducts: Product[] = [
   {
     id: 1,
     title: "Sicilian",
@@ -204,7 +204,7 @@ export const featuredProducts: Products = [
   },
 ];
 
-export const pizzas: Products = [
+export const pizzas: Product[] = [
   {
     id: 1,
     title: "Sicilian",
