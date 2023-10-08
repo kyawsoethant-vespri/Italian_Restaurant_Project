@@ -1,18 +1,18 @@
-type Menu = {
+interface Menu {
   id: number;
   slug: string;
   title: string;
-  desc?: string;
-  img?: string;
+  desc: string;
+  img: string;
   color: string;
-}[];
+}
 
-export const menu: Menu = [
+export const menu: Menu[] = [
   {
     id: 1,
     slug: "pastas",
     title: "Italian Pastas",
-    desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
+    desc: "Savor the taste of perfection with our exquisite handmade pasta menu.",
     img: "/temporary/m1.png",
     color: "white",
   },
@@ -28,7 +28,7 @@ export const menu: Menu = [
     id: 3,
     slug: "pizzas",
     title: "Cheesy Pizzas",
-    desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
+    desc: "Pizza Paradise: Irresistible slices, mouthwatering and cheesy perfection.",
     img: "/temporary/m3.png",
     color: "white",
   },
