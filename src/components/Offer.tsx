@@ -14,7 +14,9 @@ const Offer = () => {
           Progressively simplify effective e-toilers and process-centric methods
           of empowerment. Quickly pontificate parallel.
         </p>
+
         <CountDown />
+
         <button className="bg-red-500 text-white rounded-md px-6 py-3">
           Order Now
         </button>
