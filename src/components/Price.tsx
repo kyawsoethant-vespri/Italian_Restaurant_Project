@@ -33,7 +33,7 @@ const Price = ({ price, id, options }: Props) => {
         {options.map((option, index) => (
           <button
             className="ring-1 ring-red-400 p-2 rounded-md"
-            key={option.title}
+            key={option?.title}
             onClick={() => setSelected(index)}
             style={{
               background: selected === index ? "red" : "white",

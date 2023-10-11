@@ -14,7 +14,7 @@ export const menu: Menu[] = [
     title: "Italian Pastas",
     desc: "Savor the taste of perfection with our exquisite handmade pasta menu.",
     img: "/temporary/m1.png",
-    color: "white",
+    color: "gray",
   },
   {
     id: 2,
@@ -30,6 +30,6 @@ export const menu: Menu[] = [
     title: "Cheesy Pizzas",
     desc: "Pizza Paradise: Irresistible slices, mouthwatering and cheesy perfection.",
     img: "/temporary/m3.png",
-    color: "white",
+    color: "gray",
   },
 ];

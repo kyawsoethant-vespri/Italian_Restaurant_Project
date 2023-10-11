@@ -16,9 +16,7 @@ const MenuPage = () => {
             <h1 className="text-3xl font-bold uppercase">{category.title}</h1>
             <p className="text-sm my-1 sm:my-1 xl:my-8">{category.desc}</p>
             <button
-              className={`hidden 2xl:block bg-${category.color} text-${
-                category.color === "black" ? "white" : "red-500"
-              } bg-${category.color} py-2 px-4 rounded-md`}
+              className={`hidden 2xl:block bg-black text-white py-2 px-4 rounded-md`}
             >
               Explore
             </button>
